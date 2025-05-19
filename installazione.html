@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installazione Video Link Finder</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1em;
+      margin-bottom: 1.5em;
+      background: #f9f9f9;
+    }
+    button.download {
+      padding: 0.5em 1em;
+      font-size: 1em;
+      border: none;
+      background: #007acc;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button.download:hover {
+      background: #005f99;
+    }
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 0.5em;
+    }
+    code {
+      background: #eee;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+    }
+    pre {
+      background: #eee;
+      padding: 1em;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Installazione strumenti per Video Link Finder</h1>
+
+<div class="card">
+  <h2>✅ Installazione automatica (consigliata)</h2>
+  <p>Questa opzione è perfetta per chi vuole una soluzione pronta all'uso.</p>
+  <p>
+    <a href="https://github.com/tuo-repo/tools.zip">
+      <button class="download">📦 Scarica pacchetto ZIP</button>
+    </a>
+  </p>
+  <p>Dopo aver scaricato:</p>
+  <ol>
+    <li>Estrai il file ZIP in una cartella temporanea</li>
+    <li>Fai clic destro su <strong>SETUP.bat</strong> → <em>Esegui come amministratore</em></li>
+    <li>Segui le istruzioni sullo schermo</li>
+  </ol>
+  <p>Otterrai una cartella <code>C:\VideoTools</code> con tutto il necessario.</p>
+</div>
+
+<div class="card">
+  <h2>🔒 Installazione manuale (per utenti esperti)</h2>
+  <details>
+    <summary>Mostra istruzioni avanzate</summary>
+    <p>Se preferisci installare da fonti ufficiali:</p>
+    <ul>
+      <li><a href="https://github.com/yt-dlp/yt-dlp/releases">yt-dlp – GitHub Releases</a></li>
+      <li><a href="https://www.gyan.dev/ffmpeg/builds/">ffmpeg – Gyan.dev Builds</a></li>
+    </ul>
+    <p>Copiali in una cartella (es. <code>C:\VideoTools</code>) e assicurati di:</p>
+    <ul>
+      <li>Includere quella cartella nel <strong>PATH</strong></li>
+      <li>Oppure modificare gli script .bat/.sh generati dal popup</li>
+    </ul>
+  </details>
+</div>
+
+<div class="card">
+  <h2>💡 Esempio di utilizzo</h2>
+  <p>Dopo l'installazione, quando il popup ti offre uno script come <code>scarica_video.bat</code>, puoi:</p>
+  <ol>
+    <li>Fare doppio clic sul file</li>
+    <li>Il video sarà scaricato e unito in <code>video.mp4</code></li>
+  </ol>
+</div>
+
+<p style="text-align:center; color:#777;">Pagina generata per Video Link Finder Advanced</p>
+</body>
+</html>
